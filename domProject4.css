@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.ele{
+height: 120px;
+width: 100%;
+border-bottom: 2px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+.ele h1{
+font-size: 5vw;
+position: relative;
+z-index: 9;
+mix-blend-mode: difference;
+}
+
+.ele img{
+height: 100px;
+width: 100px;
+object-fit: cover;
+object-position: center;
+border-radius: 50%;
+position: absolute;
+opacity: 0;
+transition:opacity 0.3s linear;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+pointer-events: none;
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: rgb(168, 51, 71);
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: rgb(95, 96, 96);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    height: 500px;
+    width: 330px;
+    background-color: rgb(255, 255, 255);
+    background-origin: 10px;
+    border: 3px solid rgb(39, 38, 38);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+#stories{
+height: 120px;
+width: 100%;
+background-color: rgb(255, 255, 255);
+padding: 15px;
+border-bottom: 1px solid rgb(227, 226, 226);
+white-space: nowrap;
+overflow-x: auto;
+overflow-y: hidden;
+}
+
+/* through, webkit scrollbar ,we removed that ugly scrollbar showing bydefault to scroll stories */
+#stories::-webkit-scrollbar{
+display: none;
+}
+
+#story{
+background-color: rgb(255, 255, 255);
+height: 90px;
+width: 90px;
+border-radius: 50%;
+border: 3px solid rgb(165, 8, 8);
+overflow: hidden;
+display: inline-block;
+margin: 5px;
+}
+
+#story img{
+height: 100%;
+width: 100%;
+object-fit:cover;
+object-position:center;
+}
+
+#full-screen{
+height: 100%;
+width: 100%;
+position: absolute;
+display: none;
+background-position: center;
+background-size: cover;
+}

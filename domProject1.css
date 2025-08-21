@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+#card {
+    height: 450px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+}
+
+#card img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
+/* #card h1{
+font-size: 25px;
+margin: 5px 0;
+} */
+#detail {
+    margin-top: 5px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5px;
+    padding: 0px;
+
+}
+
+#detail h2 {
+    font-size: 20px;
+    text-align: left;
+    display: inline;
+    margin-right: 2px;
+    font-weight:200;
+}
+
+#card button {
+    font-size: medium;
+    display: inline;
+    color: #fff;
+    border-radius: 5px;
+    margin: 1px;
+    text-align: center;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+#card #follow {
+    background-color: rgb(30, 111, 198);
+    color: #fff;
+    padding: 5px;
+
+}
+
+#card #msg {
+    background-color: rgb(64, 63, 63);
+    color: #fff;
+    padding: 3px;
+}
+
+#count{
+display: flex;
+margin-top: 15px;
+}
+
+#bio {
+    margin-top: 15px;
+    text-align: left;
+}
+
+#bio h3{
+font-size: small;
+font-weight: semibold;
+
+}
